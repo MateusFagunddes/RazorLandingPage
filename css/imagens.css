@@ -1,0 +1,78 @@
+/* imagem do cabeçalho*/
+
+header .logo{
+	position: relative;
+	top: -30px;
+	left: -100px;
+	width: 400px;
+	height: 150px;
+}
+
+/* imagens do corpo*/
+
+.img-garoto{
+    position: relative;
+    top: -38vh;
+    left: 120vh;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.img-busso-garota{
+    position: relative;
+    top: -38vh;
+    left: 120vh;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.img-doctor{
+    position: relative;
+    top: -22.8vh;
+    left: 81vh;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.img-edicao{
+    position: relative;
+    top: -22.5vh;
+    left: 81vh;
+    width: 260px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+
+
+
+/* imagens do rodape*/
+footer .img-curso{
+	position: relative;
+	top: 2vh;
+	left: 20vh;
+	width: 400px;
+	height: 150px;
+	opacity: 60%;
+
+}
+
+footer .img-seguranca{
+	position: relative;
+	top: -3vh;
+	left: -105vh;
+	width: 360px;
+	height: 45px;
+
+}
+
+footer .img-scale{
+	position: relative;
+	top: -1vh;
+	left: 70vh;
+	width: 173px;
+	height: 74px;
+}

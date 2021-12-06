@@ -1,0 +1,44 @@
+main {
+    position: relative;
+    left: 30%;
+    top: 30vh;
+    transform: translate(-50%,-50%);
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+    margin: 40px 0;
+}
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao {
+    display: block;
+    margin: 0 0 10px;
+    padding: 5px 15px;
+    width: 50%;
+}
+.checkbox {
+    margin: 20px;
+}	
+.select {
+    margin: 5px;
+}
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #9400d3;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: #8b008b;
+    transform: scale(1.2);
+}

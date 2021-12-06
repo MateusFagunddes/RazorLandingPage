@@ -31,7 +31,7 @@ header .logo{
 .img-doctor{
     position: relative;
     top: -22.8vh;
-    left: 81vh;
+    left: 80.5vh;
     width: 150px;
     height: 150px;
     border-radius: 10px;
@@ -39,9 +39,9 @@ header .logo{
 
 .img-edicao{
     position: relative;
-    top: -22.5vh;
+    top: -22.8vh;
     left: 81vh;
-    width: 260px;
+    width: 250px;
     height: 150px;
     border-radius: 10px;
 }

@@ -19,12 +19,12 @@ header {
 
 #contato {
 	position: relative;
-	background-color: #7A09F7;
-	color: #fff;
+	background-color: #ffffff;
+	color: #7A09F7;
 	text-decoration-line: none;
-	padding: 5px;
+	padding: 10px;
 	border-radius: 10px;
-	top: 20vh;
+	top: 60vh;
 	left: -2vh;
 	font-size: 24px;
 	opacity: 60%;
@@ -32,6 +32,9 @@ header {
 
 }
 #contato:hover {
+	position: relative;
+	top: 60vh;
+	left: -2vh;
 	background-color: #fff;
 	color: #9f4dfd;
 	font-size: 36px;
@@ -55,13 +58,15 @@ header .caixa {
 	padding: 30px;
 	opacity: 55%;
 	border-radius: 50px;
+	margin-bottom: 200px;
+	margin-top: 100px;
 	
 }
 
 
 .video-text{
 	position: absolute;
-	top: 20vh;
+	top: 10vh;
 	left: 61vh;
 	text-align: center;
 	font-size: 4rem;

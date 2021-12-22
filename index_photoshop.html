@@ -2,14 +2,14 @@
 
 
 <!DOCTYPE html>
-<html lang="pt-br">	
+<html lang="pt-br">
 
 <head>
 	<meta charset="UTF-8">
 	<title>Curso Razor - Photoshop</title>
 	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/formluario.css">
 	<link rel="stylesheet" href="css/photoshop.css.css">
-	<link rel="stylesheet" href="css/imagens.css">
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 	</style>
@@ -17,61 +17,99 @@
 
 <body>
 	<header>
-		<div class="caixa">
-			<h1><img class="logo" src="img/logoCabecalho.png"></h1>
-			<nav>
-				<ul>
-					<li class="botoes"><a href="#home">TENS ALGUMA DUVIDA?</a></li>
-					
-
-				</ul>
-			</nav>
-		</div>
+		<img class="img-logo" src="img/logoCabecalho.png">
 	</header>
+
 	<main>
 
-	<section class="vantagens">
-
 		<div class="produto-layer">
-			
-					<video   muted autoplay loop  >
-						<source src="Video.mp4" type="video/mp4">
-					</video>
-				
+			<div class="video-block">
 				<div class="video-text">
-					<h1 class="titulo-video">Alcance seus objetivos!</h1>
-					<p class="titulo-video">Aprenda tudo sobre Photoshop e se torne o profissional que sempre sonhou em ser.</p>
-					
-					<li id="contato" ><a  href="formulario_index.html">INSCREVER-SE</a></li>
+					<h1>Alcance seus objetivos!</h1>
+					<p>Aprenda tudo sobre Photoshop e se torne o profissional que sempre sonhou em ser.</p>
 				</div>
+				<video muted autoplay loop>
+					<source src="Video.mp4" type="video/mp4">
 
-			<div id="home">
-				<div class="texto-produto">
-					<h2>O QUE INCONTRAREI NO CURSO?</h2>
-					<P>Este é um curso para aqueles que desejam se tornar profissional na area de edição de fotos. O curso abranje desde o iniciante ao profissional!</P>
-					<h2> Nesse curso você vai encontrar:</h2>
-					<ul>Introdução ao Adobe Photoshop e suas ferramentas básicas</ul>
-					<ul>Aprenda a tratar a imagem com o Adobe Photoshop: resolução, tamanho e transformações digitais</ul>
-					<ul>Descubra como trabalhar com precisão usando os pincéis do Adobe Photoshop</ul>
+				</video>
+				<div class="descricao">
+					<h2>O que encontrarei no curso?</h2>
+					<P>Este é um curso para aqueles que desejam se tornar profissional na area de edição de fotos. O
+						curso abranje desde o iniciante ao profissional!</P>
+					<hr>
+					<div class="vantagens">
+
+						<div class="fundo-desc">
+							<img src="img/doctor-edit.jpg" alt="">
+							<!-- <h3>Introdução ao Adobe Photoshop e suas ferramentas</h3> -->
+							<p>Aprenda de forma simples e direta quais são as ferramentas mais utilizadas e como usa-las de forma coeza em seus projetos</p>
+						</div>
+
+						<div class="fundo-desc" id="desc-invertida">
+							<img src="img/edicao-praia.jpg" alt="">
+							<!-- <h3>Aprenda a tratar a imagem com o Adobe Photoshop</h3> -->
+							<p>Aprenda tecnicas profissionais de tratamendo de imagem, como dar vida e sentimento ao projeto introduzindo cores e tratando as que já existem.</p>
+						</div>
+
+						<div class="fundo-desc">
+							<img src="img/garoto-trilho.jpg" alt="">
+							<!-- <h3>Descubra como trabalhar com precisão usando os pincéis do Adobe Photoshop</h3> -->
+							<p>Aprenda como criar recortes e usar os pinceis do Adobe Photoshop para montagens profissionais e de qualidade</p>
+						</div>
+
+					</div>
+					<form>
+						<br>
+						<hr id="div-form">
+						<h2>Faça sua inscrição agora mesmo!</h2>
+						<hr>
+						<br>
+						<br>
+						<div class="formluario">
+							<label for="nomesobrenome">Nome e sobrenome:</label>
+							<input type="text" id="nomesobrenome" class="input-padrao" name="nomesobrenome" required required
+								placeholder="digite seu nome...">
+		
+							<br>
+							<label for="email">Email:</label>
+							<input type="text" id="email" class="input-padrao" name="email" required
+								placeholder="seuemail@dominio.com">
+		
+							<br>
+							<label for=telefone>Telefone:</label>
+							<input type="text" id="telefone" class="input-padrao" name="telefone" required
+								placeholder="(XX) XXXXX-XXXX">
+		
+							<br>
+							<label for=CPF>Digite o seu CPF:</label>
+							<input type="text" id="CPF" class="input-padrao" name="CPF" required placeholder="000.000.000-00">
+		
+							<br>
+							<label for=logradouro>Logradouro:</label>
+							<input type="text" id="logradouro" class="input-padrao" name="logradouro" required
+								placeholder="Ex: Rua são gabriel, num 6868">
+		
+							<br>
+							<label for=cidade>Cidade:</label>
+							<input type="text" id="cidade" class="input-padrao" name="cidade" required
+								placeholder="ex: Tapejara-RS">
+		
+							<div class="custom-checkbox">
+								<hr><br><br>
+								<input id="checkbox-1" checked type="checkbox">
+								<label for="checkbox-1">Quero Participar!</label>
+							</div>
+		
+						</div>
+						<input type="submit" value="Enviar formulário" class="enviar">
+					</form>
 				</div>
-				<img src="img/garoto-trilho.jpg" class="img-garoto" >
-				<img src="img/busso-garota.jpg" class="img-busso-garota" >
-				<img src="img/doctor-edit.jpg" class="img-doctor" >
-				<img src="img/edicao-praia.jpg" class="img-edicao" >
-
-		    </div>
+			</div>
 		</div>
 		
 
-	</section>	
 	</main>
-	<footer>
-		<img class="img-curso" src="img/logoCabecalho.png">
-		<img class="img-scale" src="img/scale.png">
-		<img class="img-seguranca" src="img/compra-segura.png">
 
-		<p class="text-rodape">&copy; PHOTOSHOP</p>
-	</footer>
-		
 </body>
+
 </html>

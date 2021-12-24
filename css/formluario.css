@@ -4,11 +4,11 @@ form {
     transform: translateX(-50%);
 
 
-    background-color: rgb(29, 28, 28);
+    background-color: rgb(255, 255, 255);
     text-align: left;
-   
+
     padding: 5px;
-   
+
     width: max-content;
     height: fit-content;
     border-radius: 1rem;
@@ -16,7 +16,6 @@ form {
     border-style: solid;
     border-color: #7A09F7;
     font-size: 90.5%;
-
 
 
 }
@@ -27,7 +26,7 @@ form h2 {
     text-align: center;
     font-size: 4.9em;
     font-style: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 
 }
 
@@ -36,7 +35,7 @@ form label, input {
     display: flexbox;
     padding-bottom: 15px;
     font-size: 2.1em;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .formluario {
@@ -45,13 +44,13 @@ form label, input {
 
 form label {
     margin-left: 0.5em;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 3em;
 }
 
 form input {
     padding: 0.5em;
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(45deg, #ffffff 1%, #7A09F7, #a55ef7, #ffffff);
     border-radius: 10px;
     margin: 10px;
     text-align: left;
@@ -60,13 +59,13 @@ form input {
     border-style: solid;
     border-width: 3px;
     border-color: #7A09F7;
-
+    transition: background-image 0.3s;
 }
 
-form input:hover{
-    transition: 3s;
-    background-image: linear-gradient(45deg, #ffffff 1%, #7A09F7,#a55ef7,  #ffffff);
-   
+form input:hover {
+
+    background-image: linear-gradient(90deg, #ffffff 1%, #7A09F7, #a55ef7, #ffffff);
+    border-color: #ffffff;
 }
 
 form ::placeholder {
@@ -82,20 +81,19 @@ form ::placeholder {
 
 .enviar {
     border-style: none;
+    cursor: pointer;
     font-size: 3.5em;
     width: fit-content;
     padding: 0.25em;
-    color: rgb(255, 255, 255);
-    background-image: linear-gradient(90deg, #7A09F7, #a252fd);
+    color: rgba(255, 255, 255, 0.429);
+    background-image: linear-gradient(45deg, #7A09F7, #a252fd);
+    transition: all 1.1s;
 }
 
-.enviar:hover{
-    transition: 0ms;
-    background-image: linear-gradient(-45deg, #7A09F7, #a252fd);
-    padding: 0.22em;
-    border-style: solid;
-    border-color: rgb(0, 0, 0);
-    color: #ffffff60;
+.enviar:hover {
+    background-image: linear-gradient(-45deg, #7809f790, #a252fd90);
+    color: rgb(255, 255, 255);
+
 }
 
 .custom-checkbox input,
@@ -132,3 +130,4 @@ form ::placeholder {
 #form {
     margin-bottom: 5em;
 }
+

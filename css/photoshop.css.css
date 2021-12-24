@@ -7,12 +7,15 @@ body {
 
 
 header {
-	position: fixed;
+	top: 5px;
+	position: relative;
 	display: flex;
 	height: 15vh;
-	width: 100%;
+	width: 92%;
 	z-index: 100;
-
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
 	background-image: linear-gradient(90deg, #7A09F7, #a252fd);
 	color: white;
 }
@@ -31,6 +34,7 @@ header .img-logo {
 }
 
 .video-block {
+	position: relative;
 	top: 15vh;
 	background-image: linear-gradient(90deg, #7A09F7, #a252fd);
 	border-style: solid;
@@ -38,6 +42,7 @@ header .img-logo {
 	border-color: #7A09F7;
 	border-width: 1px;
 	margin-right: auto;
+	margin-left: auto;
 	margin-top: 1vh;
 	padding: 1em;
 	position: absolute;
@@ -45,13 +50,13 @@ header .img-logo {
 	transform: translatex(-50%);
 	text-align: center;
 	color: #ffffff;
-	min-width: 90vw;
+	
 	width: 90%;
 }
 
 .video-block video {
 	border-radius: 5%;
-	width: 50%;
+	width: 60%;
 
 }
 
@@ -92,10 +97,11 @@ header .img-logo {
 	margin-bottom: 50px;
 	height: 1px;
 	border-style: none;
-	background-image: linear-gradient(90deg, #7A09F7, #a252fd);
+	background-image: linear-gradient(90deg, #7A09F7, #fdfdfd);
 }
 
 .fundo-desc {
+	position: relative;
 
 	background-color: rgb(29, 28, 28);
 	padding: 10px;
@@ -108,8 +114,10 @@ header .img-logo {
 	display: flex;
 	align-items: center;
 	font-size: 1.8em;
-	margin: 20px;
 	width: 93%;
+
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .fundo-desc img {

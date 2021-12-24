@@ -3,6 +3,7 @@ form {
     left: 50%;
     transform: translateX(-50%);
 
+    margin-top: 20px;
 
     background-color: rgb(255, 255, 255);
     text-align: left;

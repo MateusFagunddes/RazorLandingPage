@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 body {
 	color: white;
 	font-size: 50.5%;
@@ -103,6 +105,7 @@ header .img-logo {
 #video-div{
 	margin-top: 20px;
 	margin-bottom: 40px;
+	background-image: linear-gradient(90deg, #ffffff, #ffffff);
 }
 
 .fundo-desc {
@@ -145,42 +148,3 @@ header .img-logo {
 	text-align: right;
 }
 
-@media (max-width: 1024px) {
-	body {
-		font-size: 90.5%;
-	}
-
-
-	header .img-logo {
-		top: -10%;
-		left: -10%;
-		width: 800px;
-		height: 360px;
-	}
-
-
-	form input {
-		padding: 0.5em;
-		background-color: rgb(255, 255, 255);
-		border-radius: 10px;
-		margin: 10px;
-		text-align: left;
-		font-size: 2.1em;
-		width: 90%;
-		border-style: solid;
-		border-width: 3px;
-		border-color: #7A09F7;
-
-
-	}
-
-	.video-block video {
-		border-radius: 5%;
-		width: 100%;
-
-	}
-
-	.fundo-desc {
-		padding: 20px;
-	}
-}

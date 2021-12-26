@@ -131,3 +131,50 @@ form ::placeholder {
 #form {
     margin-bottom: 5em;
 }
+
+@media (max-width: 1024px) {
+	body {
+		font-size: 110%;
+	}
+
+
+	header .img-logo {
+		top: -10%;
+		left: -10%;
+		width: 800px;
+		height: 360px;
+	}
+
+    form{
+        width: 90vw; 
+    }
+
+    form input {
+        padding: 0.5em;
+        margin: 10px;
+        text-align: left;
+        font-size: 2.1em;
+        width: 90%;
+        background-color: #0000000e;
+        border: none;
+        border-radius: 0.5rem;
+        border-bottom: solid ;
+        border-color: #7A09F7;
+        border-width: 1px;
+        
+    }
+
+    .descricao hr {
+        background-image: linear-gradient(90deg, #7A09F7, #a252fd);
+    }
+
+	.video-block video {
+		border-radius: 5%;
+		width: 100%;
+
+	}
+
+	.fundo-desc {
+		padding: 20px;
+	}
+}
